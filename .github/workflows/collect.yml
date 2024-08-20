@@ -127,7 +127,7 @@ jobs:
           make_latest: true
           files: |
             ${{ vars.COLLECTOR }}-${{ needs.Date.outputs.Date }}.bundle
-            ${{ vars.COLLECTOR }}-${{ needs.Date.outputs.Date }}.tgz
+          # ${{ vars.COLLECTOR }}-${{ needs.Date.outputs.Date }}.tgz
 
   Sharepoint:
     runs-on: ubuntu-latest
