@@ -1,0 +1,3 @@
+[submodule "epf-ubi8"]
+	path = epf-ubi8
+	url = https://repo1.dso.mil/dsop/keysight/eggplant/epf-ubi8.git
